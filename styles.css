@@ -1,5 +1,22 @@
 html,
+.goku {
+    background: url(http://i.imgsafe.org/4458c5dbc1.png); /*preload*/ 
+    background: url(http://i.imgsafe.org/ed8adec823.png);
+    background:url(https://manzdev.github.io/cursos-assets/js/goku-sprite.png?4);
+    background-repeat: no-repeat;
+    background-position: -6px -20px;
+    width: 60px;
+    height: 92px;
+    animation: floatingGoku 2s ease infinite alternate;
+    
+    /* Relative es necesario para mover a Goku */
+    position: relative;
+  }
+
 body {
+    
+
+    
   overflow-x: hidden;
 }
 
